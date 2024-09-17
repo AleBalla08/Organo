@@ -1,0 +1,22 @@
+.selecao-arquivo{
+    margin: 24px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.selecao-arquivo label {
+
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.selecao-arquivo input {
+    width: 100%;
+    background-color: #FFFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    padding: 24px;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 0.5em;
+}
