@@ -26,7 +26,7 @@ const aoSalvar = (evento) => {
             <form onSubmit={aoSalvar}>
                 <h2>Preencha os dados para cadastrar um integrante</h2>
                 <CampoTexto obrigatorio={true}  label="Nome" placeholder="Digite seu nome" />
-                <CampoTexto obrigatorio={true}  label="Cargo" placeholder="Digite seu cargo" />
+                <CampoTexto obrigatorio={true}  label="Área" placeholder="Digite sua área de atuação" />
                 <SelecaoArquivo label="Foto"/>
                 <ListaSelecao obrigatorio={true}  label="Equipes" itens={times}/>
                 <Botao>
